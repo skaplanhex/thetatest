@@ -1,0 +1,11 @@
+<h2>Stackplots</h2>
+<p>Everything normalized to expectation, i.e., to the normalization in the template input file, possibly scaled via the python script file.</p>
+<p>Color Code:</p><ul>
+<li><span style="background: #edd400;">&nbsp;&nbsp;&nbsp;</span> bkg</li>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> sig</li>
+</ul>
+<p>Observable 'tn_1':<br /><img src="plots/tn_1_stack.png" /></p>
+<p>Observable 'tn_2':<br /><img src="plots/tn_2_stack.png" /></p>
+<p>Observable 'tn_3':<br /><img src="plots/tn_3_stack.png" /></p>
+<p>Observable 'tn_4':<br /><img src="plots/tn_4_stack.png" /></p>
+<p>Observable 'tn_5':<br /><img src="plots/tn_5_stack.png" /></p>

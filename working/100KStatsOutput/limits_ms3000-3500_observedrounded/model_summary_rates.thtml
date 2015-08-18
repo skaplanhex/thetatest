@@ -1,0 +1,10 @@
+<p>Rates for all observables and processes as given by the 'nominal' templates. If errors are given, they are MC stat. uncertainties.</p>
+<table cellpadding="2" border="1">
+<tr><th>process / observable</th><th>Ms30003500mgg1</th><th>Ms30003500mgg2</th><th>Ms30003500mgg3</th><th>Ms30003500mgg4</th></tr>
+<tr><td>SMDiphoton</td><td>63.455</td><td>7.24</td><td>0.9993</td><td>0.13622</td></tr>
+<tr><td><b>total background</b></td><td>63.455</td><td>7.24</td><td>0.9993</td><td>0.13622</td></tr>
+<tr><td>ADDMs3000</td><td>62.792</td><td>118.42</td><td>185.88</td><td>96.301</td></tr>
+<tr><td>ADDMs3500</td><td>21.784</td><td>41.297</td><td>57.82</td><td>61.641</td></tr>
+<tr><td><b>DATA</b></td><td>63</td><td>7</td><td>1</td><td>0</td></tr>
+</table>
+

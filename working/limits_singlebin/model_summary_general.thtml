@@ -1,0 +1,23 @@
+<p>Observables (xmin, xmax, nbins):</p>
+<ul>
+<li>singlebin (2000, 13000, 1)</li>
+</ul>
+<p>Background processes:</p>
+<ul>
+<li>SMDiphoton</li>
+</ul>
+<p>Signal processes:</p><ul>
+<li>ADDMs2500</li>
+<li>ADDMs3000</li>
+<li>ADDMs3500</li>
+<li>ADDMs4000</li>
+<li>ADDMs4500</li>
+<li>ADDMs5000</li>
+<li>ADDMs5500</li>
+<li>ADDMs6000</li>
+<li>ADDMs6500</li>
+<li>ADDMs7000</li>
+</ul>
+<p>Nuisance parameters (includes only those which apply to the background-only model):</p>
+<ul>
+</ul>

@@ -1,0 +1,11 @@
+<h2>Stackplots</h2>
+<p>Everything normalized to expectation, i.e., to the normalization in the template input file, possibly scaled via the python script file.</p>
+<p>Color Code:</p><ul>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> ADDMs3000</li>
+<li><span style="background: #cc0000;">&nbsp;&nbsp;&nbsp;</span> ADDMs3500</li>
+<li><span style="background: #edd400;">&nbsp;&nbsp;&nbsp;</span> SMDiphoton</li>
+</ul>
+<p>Observable 'Ms30003500mgg1':<br /><img src="plots/Ms30003500mgg1_stack.png" /></p>
+<p>Observable 'Ms30003500mgg2':<br /><img src="plots/Ms30003500mgg2_stack.png" /></p>
+<p>Observable 'Ms30003500mgg3':<br /><img src="plots/Ms30003500mgg3_stack.png" /></p>
+<p>Observable 'Ms30003500mgg4':<br /><img src="plots/Ms30003500mgg4_stack.png" /></p>

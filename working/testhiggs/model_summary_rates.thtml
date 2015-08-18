@@ -1,0 +1,9 @@
+<p>Rates for all observables and processes as given by the 'nominal' templates. If errors are given, they are MC stat. uncertainties.</p>
+<table cellpadding="2" border="1">
+<tr><th>process / observable</th><th>tn_1</th><th>tn_2</th><th>tn_3</th><th>tn_4</th><th>tn_5</th></tr>
+<tr><td>bkg</td><td>63.455</td><td>7.24</td><td>0.9993</td><td>0.11846</td><td>0.017766</td></tr>
+<tr><td><b>total background</b></td><td>63.455</td><td>7.24</td><td>0.9993</td><td>0.11846</td><td>0.017766</td></tr>
+<tr><td>sig</td><td>12.622</td><td>16.999</td><td>21.972</td><td>21.924</td><td>9.4928</td></tr>
+<tr><td><b>DATA</b></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>
+

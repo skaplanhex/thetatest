@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title>theta-auto Report</title>
+    <script type="text/javascript" src="js/prototype.js"></script>
+    <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+    <style type="text/css">
+    body {margin: 30px; font-family: Verdana, Arial, sans-serif; font-size: 12px; background:#eee;}
+    h1, h2, h3 { padding: 0.2ex; padding-left:.8ex;}
+    h1 {font-size: 150%%; background: #d44;}
+    h2 {font-size: 110%%; background: #f88; padding-left:1.3ex;}
+    h3 {font-size: 100%%; background: #aaa; padding-left:1.3ex;}
+    .inner {padding-left: 3ex;}
+    a img{ border: none;}
+    p {margin:0 0 0 0; margin-top: 1.3ex;}
+    ul {margin:0 0 0 0;}
+    </style>
+    </head><body>
+    <p>Hint: click on top-level headers to toggle visibility of that section.</p>
+    <h1 onclick=$('div1').toggle()>1. General Model Info</h1><div class="inner" id="div1">
+<p>Observables (xmin, xmax, nbins):</p>
+<ul>
+<li>singlebin (2000, 13000, 1)</li>
+</ul>
+<p>Background processes:</p>
+<ul>
+<li>SMDiphoton</li>
+</ul>
+<p>Signal processes:</p><ul>
+<li>ADDMs2500</li>
+<li>ADDMs3000</li>
+<li>ADDMs3500</li>
+<li>ADDMs4000</li>
+<li>ADDMs4500</li>
+<li>ADDMs5000</li>
+<li>ADDMs5500</li>
+<li>ADDMs6000</li>
+<li>ADDMs6500</li>
+<li>ADDMs7000</li>
+</ul>
+<p>Nuisance parameters (includes only those which apply to the background-only model):</p>
+<ul>
+</ul>
+
+</div>
+<h1 onclick=$('div2').toggle()>2. Rate Summary</h1><div class="inner" id="div2">
+<p>Rates for all observables and processes as given by the 'nominal' templates. If errors are given, they are MC stat. uncertainties.</p>
+<table cellpadding="2" border="1">
+<tr><th>process / observable</th><th>singlebin</th></tr>
+<tr><td>SMDiphoton</td><td>0.64416</td></tr>
+<tr><td><b>total background</b></td><td>0.64416</td></tr>
+<tr><td>ADDMs2500</td><td>489.72</td></tr>
+<tr><td>ADDMs3000</td><td>237.85</td></tr>
+<tr><td>ADDMs3500</td><td>105.64</td></tr>
+<tr><td>ADDMs4000</td><td>47.873</td></tr>
+<tr><td>ADDMs4500</td><td>22.689</td></tr>
+<tr><td>ADDMs5000</td><td>11.497</td></tr>
+<tr><td>ADDMs5500</td><td>6.0891</td></tr>
+<tr><td>ADDMs6000</td><td>3.413</td></tr>
+<tr><td>ADDMs6500</td><td>2.0375</td></tr>
+<tr><td>ADDMs7000</td><td>1.2622</td></tr>
+<tr><td><b>DATA</b></td><td>1</td></tr>
+</table>
+
+
+</div>
+<h1 onclick=$('div3').toggle()>3. Rate Impact of Systematic Uncertainties</h1><div class="inner" id="div3">
+<p>The table below summarises the impact of an nuisance parameter on the rate prediction of a process.</p>
+    <p>For a nuisance parameter, (gauss) indicates that this nuisance parameter has a gaussian prior, (gamma) that it has a gamma prior.</p>
+    <p>For the individual cells, (r) indicates the 'rate only' part of the uncertainty, (s) indicates the effect on the rate of an uncertainty
+    treated via template morphing (i.e., the <em>rate</em> effect of an uncertainty treated as part of the
+    template morphing; even if this is zero, the shape effect is still taken into account). Note that both effects are applied seperatly, so
+    the total rate change is about the linear sum of these two.<br/>
+    The rate change in 'plus' direction of the uncertainty is written as superscript,
+    the 'minus' direction as subscript.<br/>All numbers are in percent.</p>
+<h2>Observable 'singlebin'</h2>
+<table cellpadding="2" border="1">
+<tr><th>process / nuisance parameter</th></tr>
+<tr><td>ADDMs2500</td></tr>
+<tr><td>ADDMs3000</td></tr>
+<tr><td>ADDMs3500</td></tr>
+<tr><td>ADDMs4000</td></tr>
+<tr><td>ADDMs4500</td></tr>
+<tr><td>ADDMs5000</td></tr>
+<tr><td>ADDMs5500</td></tr>
+<tr><td>ADDMs6000</td></tr>
+<tr><td>ADDMs6500</td></tr>
+<tr><td>ADDMs7000</td></tr>
+<tr><td>SMDiphoton</td></tr>
+</table>
+
+
+</div>
+<h1 onclick=$('div4').toggle()>4. Nuisance Parameter Priors</h1><div class="inner" id="div4">
+
+    <p>The priors for the nuisance parameters are either Gaussian or gamma distributions. As limit cases, these can have with=0 or width=inf
+    which makes them delta or flat distributions, respectively.</p>
+    <div class="inner"><h3>Prior Parameters</h3>
+<table cellpadding="2" border="1">
+<tr><th>parameter</th><th>distribution type</th><th>distribution parameters</th></tr>
+</table>
+
+</div>
+    </div>
+</div>
+<h1 onclick=$('div5').toggle()>5. Basic Model Plots</h1><div class="inner" id="div5">
+<h2>Stackplots</h2>
+<p>Everything normalized to expectation, i.e., to the normalization in the template input file, possibly scaled via the python script file.</p>
+<p>Color Code:</p><ul>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> ADDMs2500</li>
+<li><span style="background: #cc0000;">&nbsp;&nbsp;&nbsp;</span> ADDMs3000</li>
+<li><span style="background: #a40000;">&nbsp;&nbsp;&nbsp;</span> ADDMs3500</li>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> ADDMs4000</li>
+<li><span style="background: #cc0000;">&nbsp;&nbsp;&nbsp;</span> ADDMs4500</li>
+<li><span style="background: #a40000;">&nbsp;&nbsp;&nbsp;</span> ADDMs5000</li>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> ADDMs5500</li>
+<li><span style="background: #cc0000;">&nbsp;&nbsp;&nbsp;</span> ADDMs6000</li>
+<li><span style="background: #a40000;">&nbsp;&nbsp;&nbsp;</span> ADDMs6500</li>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> ADDMs7000</li>
+<li><span style="background: #edd400;">&nbsp;&nbsp;&nbsp;</span> SMDiphoton</li>
+</ul>
+<p>Observable 'singlebin':<br /><img src="plots/singlebin_stack.png" /></p>
+
+</div>
+<h1 onclick=$('div6').toggle()>6. Limits Bayesian</h1><div class="inner" id="div6">
+<p><table cellpadding="2" border="1">
+<tr><th>signal process</th><th>expected limit</th><th>expected limit (central 1sigma)</th><th>expected limit (central 2sigma)</th><th>observed limit</th></tr>
+<tr><td>2500</td><td>0.00655</td><td>0.00601--0.00917</td><td>0.00576--0.0144</td><td>0.00867 +- 3.54e-05</td></tr>
+<tr><td>3000</td><td>0.0134</td><td>0.0124--0.0188</td><td>0.0118--0.0294</td><td>0.018 +- 0.000157</td></tr>
+<tr><td>3500</td><td>0.0299</td><td>0.0277--0.0426</td><td>0.0267--0.0663</td><td>0.0398 +- 0.000313</td></tr>
+<tr><td>4000</td><td>0.0665</td><td>0.0612--0.0936</td><td>0.0585--0.145</td><td>0.0909 +- 0.000592</td></tr>
+<tr><td>4500</td><td>0.142</td><td>0.13--0.236</td><td>0.125--0.308</td><td>0.183 +- 0.00181</td></tr>
+<tr><td>5000</td><td>0.28</td><td>0.256--0.387</td><td>0.245--0.61</td><td>0.377 +- 0.00259</td></tr>
+<tr><td>5500</td><td>0.521</td><td>0.483--0.733</td><td>0.464--1.14</td><td>0.694 +- 0.00612</td></tr>
+<tr><td>6000</td><td>0.933</td><td>0.855--1.31</td><td>0.822--2.01</td><td>1.25 +- 0.0146</td></tr>
+<tr><td>6500</td><td>1.57</td><td>1.44--2.16</td><td>1.38--2.94</td><td>2.1 +- 0.00764</td></tr>
+<tr><td>7000</td><td>2.53</td><td>2.33--3.62</td><td>2.23--5.5</td><td>3.31 +- 0.0101</td></tr>
+</table>
+</p>
+<p><p><img src="plots/limit_band_plot-bayesian.png" /></p></p>
+<p><p><img src="plots/limit_band_plot-log-bayesian.png" /></p></p>

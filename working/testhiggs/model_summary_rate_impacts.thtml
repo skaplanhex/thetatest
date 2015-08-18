@@ -1,0 +1,43 @@
+<p>The table below summarises the impact of an nuisance parameter on the rate prediction of a process.</p>
+    <p>For a nuisance parameter, (gauss) indicates that this nuisance parameter has a gaussian prior, (gamma) that it has a gamma prior.</p>
+    <p>For the individual cells, (r) indicates the 'rate only' part of the uncertainty, (s) indicates the effect on the rate of an uncertainty
+    treated via template morphing (i.e., the <em>rate</em> effect of an uncertainty treated as part of the
+    template morphing; even if this is zero, the shape effect is still taken into account). Note that both effects are applied seperatly, so
+    the total rate change is about the linear sum of these two.<br/>
+    The rate change in 'plus' direction of the uncertainty is written as superscript,
+    the 'minus' direction as subscript.<br/>All numbers are in percent.</p>
+<h2>Observable 'tn_1'</h2>
+<table cellpadding="2" border="1">
+<tr><th>process / nuisance parameter</th></tr>
+<tr><td>bkg</td></tr>
+<tr><td>sig</td></tr>
+</table>
+
+<h2>Observable 'tn_2'</h2>
+<table cellpadding="2" border="1">
+<tr><th>process / nuisance parameter</th></tr>
+<tr><td>bkg</td></tr>
+<tr><td>sig</td></tr>
+</table>
+
+<h2>Observable 'tn_3'</h2>
+<table cellpadding="2" border="1">
+<tr><th>process / nuisance parameter</th></tr>
+<tr><td>bkg</td></tr>
+<tr><td>sig</td></tr>
+</table>
+
+<h2>Observable 'tn_4'</h2>
+<table cellpadding="2" border="1">
+<tr><th>process / nuisance parameter</th></tr>
+<tr><td>bkg</td></tr>
+<tr><td>sig</td></tr>
+</table>
+
+<h2>Observable 'tn_5'</h2>
+<table cellpadding="2" border="1">
+<tr><th>process / nuisance parameter</th></tr>
+<tr><td>bkg</td></tr>
+<tr><td>sig</td></tr>
+</table>
+

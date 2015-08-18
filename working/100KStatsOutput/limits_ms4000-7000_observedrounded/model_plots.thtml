@@ -1,0 +1,17 @@
+<h2>Stackplots</h2>
+<p>Everything normalized to expectation, i.e., to the normalization in the template input file, possibly scaled via the python script file.</p>
+<p>Color Code:</p><ul>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> ADDMs4000</li>
+<li><span style="background: #cc0000;">&nbsp;&nbsp;&nbsp;</span> ADDMs4500</li>
+<li><span style="background: #a40000;">&nbsp;&nbsp;&nbsp;</span> ADDMs5000</li>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> ADDMs5500</li>
+<li><span style="background: #cc0000;">&nbsp;&nbsp;&nbsp;</span> ADDMs6000</li>
+<li><span style="background: #a40000;">&nbsp;&nbsp;&nbsp;</span> ADDMs6500</li>
+<li><span style="background: #ef2929;">&nbsp;&nbsp;&nbsp;</span> ADDMs7000</li>
+<li><span style="background: #edd400;">&nbsp;&nbsp;&nbsp;</span> SMDiphoton</li>
+</ul>
+<p>Observable 'mgg1':<br /><img src="plots/mgg1_stack.png" /></p>
+<p>Observable 'mgg2':<br /><img src="plots/mgg2_stack.png" /></p>
+<p>Observable 'mgg3':<br /><img src="plots/mgg3_stack.png" /></p>
+<p>Observable 'mgg4':<br /><img src="plots/mgg4_stack.png" /></p>
+<p>Observable 'mgg5':<br /><img src="plots/mgg5_stack.png" /></p>

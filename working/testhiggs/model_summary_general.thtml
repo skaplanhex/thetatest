@@ -1,0 +1,18 @@
+<p>Observables (xmin, xmax, nbins):</p>
+<ul>
+<li>tn_1 (0, 1, 1)</li>
+<li>tn_2 (0, 1, 1)</li>
+<li>tn_3 (0, 1, 1)</li>
+<li>tn_4 (0, 1, 1)</li>
+<li>tn_5 (0, 1, 1)</li>
+</ul>
+<p>Background processes:</p>
+<ul>
+<li>bkg</li>
+</ul>
+<p>Signal processes:</p><ul>
+<li>sig</li>
+</ul>
+<p>Nuisance parameters (includes only those which apply to the background-only model):</p>
+<ul>
+</ul>
